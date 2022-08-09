@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(120deg, #f8b270 0%, #f2c295 100%);
+    background-position: fixed;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+.forms {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+/* .cards{
+    margin-top: 4rem;
+    width: 12rem;
+    box-shadow: 5px 5px 5px 2px #00000080;
+    background-color: #ffffff35;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+} */
+
+.foto{
+    width: 15rem;
+    object-fit: cover;
+}
+
+.btn_add{
+    background-color: #D9534F;
+    padding: 0.5rem;
+    margin: .5rem;
+    border: 3px solid #D9534F;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+  }
+
+/* .search {
+  display: flex;
+} */
+
+.searchTerm {
+  width: 5rem;
+  border: 3px solid #D9534F;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color:  #D9534F;
+}
+
+.searchButton {
+  width: 1.5rem;
+  height: 2.1rem;
+  border: 1px solid  #D9534F;
+  background:  #D9534F;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
