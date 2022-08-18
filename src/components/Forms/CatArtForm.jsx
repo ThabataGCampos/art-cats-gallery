@@ -5,6 +5,7 @@ function CatArtForm(props) {
     <div className="create-form">
       <FormControl
         id="create_name"
+        className="form_name"
         label="Name"
         type="text"
         onChange={props.onChange}
@@ -13,6 +14,7 @@ function CatArtForm(props) {
       />
       <FormControl
         id="create_image"
+        className="form_image"
         label="Image"
         type="text"
         onChange={props.onChange}

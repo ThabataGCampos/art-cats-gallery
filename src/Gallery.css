@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(120deg, #f8b270 0%, #f2c295 100%);
+    /* background: linear-gradient(120deg, #f8b270 0%, #f2c295 100%); */
+    background: linear-gradient(120deg, #f2c295 0%, #fadbb9 100%);
     background-position: fixed;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -15,74 +16,138 @@ body {
     padding-right: 5rem;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
+.btn_ad{
+  background-color: #c64d48;
+  padding: 0.5rem;
+  margin: .5rem;
+  border: 3px solid #D9534F;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
-
-/* .cards{
-    margin-top: 4rem;
-    width: 12rem;
-    box-shadow: 5px 5px 5px 2px #00000080;
-    background-color: #ffffff35;
-    border-radius: 10px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    transition: 0.5s ease;
-    cursor: pointer;
-} */
-
-.foto{
-    width: 15rem;
-    object-fit: cover;
-}
-
-.btn_add{
-    background-color: #D9534F;
-    padding: 0.5rem;
-    margin: .5rem;
-    border: 3px solid #D9534F;
-    border-radius: 5px;
-    color: white;
-    font-size: 1rem;
-  }
 
 /* .search {
-  display: flex;
+display: flex;
 } */
 
-.searchTerm {
-  width: 5rem;
-  border: 3px solid #D9534F;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
+input#searchArt.searchTer {
+width: 6rem;
+border: 3px solid #D9534F;
+border-right: none;
+height: 40px;
+border-radius: 5px 0 0 5px;
+outline: none;
+margin: 0rem 0 1rem;
+font-size: 1rem;
 }
 
-.searchTerm:focus{
-  color:  #D9534F;
+/* label#searchArt.searchTer {
+  
+  color: rebeccapurple;
+  
+  } */
+
+.searchTer:focus{
+color:  #D9534F;
 }
 
 .searchButton {
-  width: 1.5rem;
-  height: 2.1rem;
-  border: 1px solid  #D9534F;
-  background:  #D9534F;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
+width: 2rem;
+height: 3rem;
+border: 1px solid  #D9534F;
+background:  #D9534F;
+text-align: center;
+color: #fff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 20px;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1rem;
+  gap: 3rem;
+}
+
+  /* .cards{
+    /* margin-top: 4rem;
+    width: 25rem;
+    box-shadow: 5px 5px 5px 2px #00000080;
+    background-color: #fff; 
+    /* background-color: #ffffff35; */
+    /* border-radius: 10px; */
+    /* padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    gap: 2rem;
+    transition: 0.5s ease;
+    cursor: pointer; 
+
+     background-color: #fff;
+    box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
+                0 3px 1px hsla(0,0%,100%,.75),
+                0 -1px 1px 2px hsla(0,0%,0%,.1);
+    height: 18.75em;
+    left: 50%;
+    margin: -9.875em -13em;
+    padding: .5em;
+    position: absolute;
+    top: 50%;
+    width: 25em;
+}    */ 
+
+img {
+  border:solid 2px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+}
+
+.cards {
+  background-color: #ddc;
+    border: solid 1.5rem #eee;
+    border-bottom-color: #fff;
+    border-left-color: #eee;
+    border-radius: 2px;
+    border-right-color: #eee;
+    border-top-color: #ddd;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 25%) inset, 0 5px 10px 5px rgb(0 0 0 / 25%);
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .cards:before {
+    border-radius:2px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+   
+    position:absolute;
+   
+  }
+  .cards:after {
+    border-radius:2px;
+   
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content:"";
+    
+    position:absolute;
+  }
+    
+
+
+.foto{
+    width: 20rem;
+    object-fit: cover;
+}
+
+p{
+  color: #D9534F;
+}
+

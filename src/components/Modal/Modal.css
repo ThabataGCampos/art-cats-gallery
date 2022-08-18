@@ -4,7 +4,9 @@
     min-height: 200px;
     max-width: 700px;
     max-height: 450px;
-    background: linear-gradient(120deg, #96CEB4 0%, #FFEEAD 100%);
+    /* background: linear-gradient(120deg, #b9d8fa 0%, #fadbb9 100%); */
+    /* background: linear-gradient(to right, #7f53ac 0, #657ced 100%); */
+    background: linear-gradient(to right, #b9d8fa 0, #fadbb9 100%);
     position: relative;
     border-radius: 10px;
     box-sizing: border-box;
@@ -46,6 +48,56 @@
     font-size: 1.2rem;
     margin: 2rem;
     gap: 2rem;
+  }
+
+  label.form-label {
+    display: block;
+    margin: 1rem 0 1rem; 
+    color: gray;
+    font-size: 1rem;
+    line-height: 1;
+    /* text-transform: uppercase; */
+    letter-spacing: .2em;
+  }
+
+  input#create_name.form_name {
+    outline: none;
+    background: rgba(black, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: gray;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.3s ease;
+  }
+
+  input#create_image.form_image {
+    outline: none;
+    background: rgba(black, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: gray;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    transition: 0.3s ease;
+  }
+
+  .button_create{
+    background-color: #c64d48;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 3px solid #c64d48;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
   }
   
   @media (max-width: 400px) {
