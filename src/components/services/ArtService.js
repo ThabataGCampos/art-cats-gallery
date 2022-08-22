@@ -8,7 +8,7 @@
 //     TaskById: (id) => `${TaskContest.taskEndPoint()}/${id}`
 // }
 
-import { Api } from "../components/helpers/Api"
+import { Api } from "../helpers/Api"
 
 const parseResponse = (response) => response.json() // recebe a resposta e transforma em json
 

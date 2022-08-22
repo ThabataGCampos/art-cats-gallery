@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArtService } from "../../services/ArtService";
+import { ArtService } from "../services/ArtService";
 import FormControl from "../Forms/FormControl";
 import CatArtForm from "../Forms/CatArtForm";
 import Modal from "../Modal/Modal";
