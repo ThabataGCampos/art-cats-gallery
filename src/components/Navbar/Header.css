@@ -1,3 +1,10 @@
+@media only screen and (max-width: 600px){
+    h1 {
+        font-size: 5rem !important;
+        padding-left: .5rem !important;
+    }
+  }  
+
 @font-face {
     font-family: "bartdeng";
     src: url(../../assets/fonts/bartdeng/Bartdeng.ttf);
@@ -18,38 +25,6 @@ h1 {
     justify-content: space-between;
 }
 
-.nav_btn{
-   padding-right: 5rem;
-   display: flex;
-   flex-direction: row;
-   align-items: center
-}
-
-.btn_add{
-  background-color: #D9534F;
-  padding: 0.5rem;
-  margin: .5rem;
-  border: none;
-  color: white;
-  font-size: 1rem;
-}
-
-.FormSeachAndCreate{
-    border-color: #D9534F;
-    font-size: 1.1rem;
-    color:  #D9534F;
-    width: 6.3rem;
-    height: 2rem;
-  }
-
-.bi-search{
-    width: 40px;
-    height: 36px;
-    border: 1px solid  #D9534F;
-    background:  #D9534F;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
+a{
+    text-decoration: none;
 }

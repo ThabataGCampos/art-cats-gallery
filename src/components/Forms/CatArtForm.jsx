@@ -4,7 +4,7 @@ function CatArtForm(props) {
   return (
     <div className="create-form">
       <FormControl
-        id="create_name"
+        id="name"
         className="form_name"
         label="Name"
         type="text"
@@ -13,7 +13,7 @@ function CatArtForm(props) {
         value={props.name_value}
       />
       <FormControl
-        id="create_image"
+        id="image"
         className="form_image"
         label="Image"
         type="text"
