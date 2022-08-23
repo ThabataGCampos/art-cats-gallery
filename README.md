@@ -9,7 +9,7 @@ Runs the app in the development mode.
 Esse projeto foi realizado para o curso da Blue EdTech módulo IV.
 
 ## Link do projeto:
-<a href="https://.herokuapp.com/" target="_blank"><img style="width:5%" src="./public/favicon.ico" alt="ícone de gato"></a>
+<a href="https://art-cats-gallery.vercel.app" target="_blank"><img style="width:5%" src="./public/favicon.ico" alt="ícone de gato"></a>
 
 ## Stacks
 Ferramentas usadas:
